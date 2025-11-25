@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PokéWorld Hub - Contact</title>
+    <title>PokéWorld Hub - Pokédex</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- DEVELOPER: Andrés Vega, IS117-001, Fall 2025 -->
@@ -29,7 +29,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pokedex.html">Pokédex</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="pokedex.html">Pokédex</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Games &amp; TCG
@@ -41,7 +41,7 @@
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="news.html">News &amp; Updates</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -50,57 +50,53 @@
 
 <main class="flex-grow-1">
     <div class="container py-4">
-        <h1 class="mb-3">Contact PokéWorld Hub</h1>
+        <h1 class="mb-3">Pokédex Highlights</h1>
         <p>
-            Use this form to share feedback, suggest topics, or tell us about your
-            favorite Pokémon and collections. This form is for demonstration only and
-            does not actually send data to a server.
+            This Pokédex page shows a small sample of well-known Pokémon. Each profile
+            includes type information, basic strengths and weaknesses, and a short
+            description to help new fans understand what makes each Pokémon special.
         </p>
 
-        <form class="row g-3">
-            <div class="col-md-6">
-                <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" required>
+        <div class="row g-4 mt-3">
+            <div class="col-md-4">
+                <h2 class="h4">Pikachu</h2>
+                <p><strong>Type:</strong> Electric</p>
+                <ul>
+                    <li><strong>Strong against:</strong> Water, Flying</li>
+                    <li><strong>Weak to:</strong> Ground</li>
+                </ul>
+                <p>
+                    Pikachu is the mascot of the Pokémon franchise. It is quick, friendly,
+                    and often introduced as a new player’s first Electric-type partner.
+                </p>
             </div>
 
-            <div class="col-md-6">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" required>
+            <div class="col-md-4">
+                <h2 class="h4">Charizard</h2>
+                <p><strong>Type:</strong> Fire/Flying</p>
+                <ul>
+                    <li><strong>Strong against:</strong> Grass, Bug, Ice</li>
+                    <li><strong>Weak to:</strong> Rock, Water, Electric</li>
+                </ul>
+                <p>
+                    Charizard is a fan favorite thanks to its powerful Fire-type attacks and
+                    dragon-like appearance. It has appeared in many games, shows, and cards.
+                </p>
             </div>
 
-            <div class="col-md-6">
-                <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" required>
+            <div class="col-md-4">
+                <h2 class="h4">Bulbasaur</h2>
+                <p><strong>Type:</strong> Grass/Poison</p>
+                <ul>
+                    <li><strong>Strong against:</strong> Water, Ground, Rock</li>
+                    <li><strong>Weak to:</strong> Fire, Flying, Ice</li>
+                </ul>
+                <p>
+                    Bulbasaur is known for its balance and support moves. It is often
+                    recommended as a starter for players who enjoy a slower, steady style.
+                </p>
             </div>
-
-            <div class="col-md-6">
-                <label for="topic" class="form-label">Topic</label>
-                <select id="topic" class="form-select">
-                    <option selected>Choose a topic...</option>
-                    <option value="pokedex">Pokédex</option>
-                    <option value="strategies">Strategies</option>
-                    <option value="collectibles">Collectibles</option>
-                    <option value="news">News &amp; Updates</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-
-            <div class="col-12">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="5" required></textarea>
-            </div>
-
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-        </form>
-
-        <p class="mt-4">
-            You can also find more fan discussions on community forums such as
-            <a href="https://www.reddit.com/r/pokemon" target="_blank" rel="noopener noreferrer">
-                r/pokemon on Reddit
-            </a>, which opens in a new tab.
-        </p>
+        </div>
     </div>
 </main>
 

@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PokéWorld Guide - Home</title>
+    <title>PokéWorld Hub - Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- DEVELOPER: Andres Vega, IS117-001, Fall 2025 -->
+    <!-- DEVELOPER: Andrés Vega, IS117-001, Fall 2025 -->
 
     <!-- Bootstrap CSS -->
     <link
@@ -24,8 +24,8 @@
 
             <!-- Logo -> Home -->
             <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="images/pokelogo.png" alt="PokéWorld logo" class="logo me-2">
-                <span>PokéWorld Guide</span>
+                <img src="images/pokelogo.png" alt="PokéWorld Hub logo" class="logo me-2">
+                <span>PokéWorld Hub</span>
             </a>
 
             <!-- Responsive toggle -->
@@ -41,16 +41,27 @@
                         <a class="nav-link active" href="index.html">Home</a>
                     </li>
 
-                    <!-- Dropdown: 2-tier navigation -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="pokedex.html">Pokédex</a>
+                    </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            Explore
+                            Games &amp; TCG
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="starters.html">Starter Pokémon</a></li>
-                            <li><a class="dropdown-item" href="regions.html">Regions</a></li>
-                            <li><a class="dropdown-item" href="battles.html">Battle Tips</a></li>
+                            <li><a class="dropdown-item" href="games.html">Overview</a></li>
+                            <li><a class="dropdown-item" href="strategies.html">Strategies</a></li>
+                            <li><a class="dropdown-item" href="collectibles.html">Collectibles</a></li>
                         </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News &amp; Updates</a>
                     </li>
 
                     <li class="nav-item">
@@ -66,65 +77,79 @@
 <!-- Main content -->
 <main class="flex-grow-1">
 
-    <!-- HERO: makes home page different from interior pages -->
+    <!-- HERO: home page different from interior pages -->
     <section class="hero-section text-center">
         <div class="container py-5">
-            <h1 class="display-5 fw-bold">Welcome to the PokéWorld Guide</h1>
+            <h1 class="display-5 fw-bold">Welcome to PokéWorld Hub</h1>
             <p class="lead">
-                This fan-made guide is for new Trainers who want a simple overview of
-                starter Pokémon, famous regions, and basic battle tips without getting lost
-                in every small detail.
+                A fan-made resource where you can explore Pokémon profiles, learn game
+                strategies, discover collectibles, and stay up to date with the latest news.
             </p>
-            <a href="starters.html" class="btn btn-primary btn-lg">Choose Your Starter</a>
+            <a href="pokedex.html" class="btn btn-primary btn-lg">Start with the Pokédex</a>
         </div>
     </section>
 
-    <!-- Cards section on homepage -->
+    <!-- Cards for main sections (rubric: cards on homepage) -->
     <section class="container py-5">
-        <h2 class="mb-4 text-center">Start Your Adventure</h2>
+        <h2 class="mb-4 text-center">Explore the Hub</h2>
         <div class="row g-4">
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card h-100">
                     <img src="images/starter1.jpg" class="card-img-top"
-                         alt="Fire-type starter Pokémon illustration">
+                         alt="Pokémon character illustration representing Pokédex">
                     <div class="card-body">
-                        <h5 class="card-title">Starter Pokémon</h5>
+                        <h5 class="card-title">Pokédex</h5>
                         <p class="card-text">
-                            Learn what makes Grass, Fire, and Water starters feel different so you
-                            can pick a partner that matches your style.
+                            Browse selected Pokémon profiles with types, strengths,
+                            weaknesses, and fun facts.
                         </p>
-                        <a href="starters.html" class="btn btn-outline-primary">View starters</a>
+                        <a href="pokedex.html" class="btn btn-outline-primary">View Pokédex</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <img src="images/region1.jpg" class="card-img-top"
-                         alt="A scenic Pokémon region landscape with a town and route">
-                    <div class="card-body">
-                        <h5 class="card-title">Iconic Regions</h5>
-                        <p class="card-text">
-                            Get a quick overview of a few well-known regions and what kind of
-                            adventures each one offers.
-                        </p>
-                        <a href="regions.html" class="btn btn-outline-primary">Explore regions</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card h-100">
                     <img src="images/battle1.jpg" class="card-img-top"
-                         alt="Illustration of a Pokémon battle in a stadium">
+                         alt="Pokémon battle scene for strategies">
                     <div class="card-body">
-                        <h5 class="card-title">Simple Battle Tips</h5>
+                        <h5 class="card-title">Games &amp; Strategies</h5>
                         <p class="card-text">
-                            Learn a few easy habits that can help you win more battles without
-                            needing to memorize the entire type chart.
+                            Learn beginner-friendly strategies to improve your battles in
+                            different Pokémon games.
                         </p>
-                        <a href="battles.html" class="btn btn-outline-primary">Learn battle tips</a>
+                        <a href="strategies.html" class="btn btn-outline-primary">View strategies</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <img src="images/collectible1.jpg" class="card-img-top"
+                         alt="Pokémon trading cards spread out on a table">
+                    <div class="card-body">
+                        <h5 class="card-title">Collectibles</h5>
+                        <p class="card-text">
+                            Learn about trading cards and merchandise, rarity basics,
+                            and collecting tips.
+                        </p>
+                        <a href="collectibles.html" class="btn btn-outline-primary">View collectibles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <img src="images/news1.jpg" class="card-img-top"
+                         alt="Abstract image representing Pokémon news and updates">
+                    <div class="card-body">
+                        <h5 class="card-title">News &amp; Updates</h5>
+                        <p class="card-text">
+                            Catch highlights on new game releases, events, and community
+                            activities.
+                        </p>
+                        <a href="news.html" class="btn btn-outline-primary">View news</a>
                     </div>
                 </div>
             </div>
@@ -132,28 +157,29 @@
         </div>
     </section>
 
-    <!-- Float image + text + list + external link -->
+    <!-- Float image + list + external link -->
     <section class="container pb-5">
         <div class="clearfix">
             <img src="images/starter2.jpg"
                  class="float-md-start me-md-3 mb-3 float-img"
-                 alt="Electric-type Pokémon smiling next to a Trainer">
+                 alt="Electric-type Pokémon next to a Trainer holding a Poké Ball">
 
-            <h2>Why Pokémon Is Fun for New Trainers</h2>
+            <h2>Why PokéWorld Hub Exists</h2>
             <p>
-                Pokémon stays popular because it is easy to start but deep enough to
-                keep you thinking. You collect partners that feel personal, explore
-                different regions, and slowly learn how to plan your battles better.
+                PokéWorld Hub is designed for both long-time fans and new players who
+                want a clear, friendly way to explore the Pokémon world. Instead of
+                overwhelming charts and spoilers, the site focuses on simple, useful
+                information and positive fan experiences.
             </p>
 
             <ul>
-                <li>You can build a team that fits your favorite designs and types.</li>
-                <li>Turn-based battles give you time to think about your next move.</li>
-                <li>Each region adds new Pokémon, new stories, and new ways to explore.</li>
+                <li>Quick reference for Pokémon basics and type matchups.</li>
+                <li>Lightweight strategy tips that work across multiple games.</li>
+                <li>Collecting advice that keeps the hobby fun and enjoyable.</li>
             </ul>
 
             <p>
-                For official information, events, and news, you can visit the
+                For official announcements and detailed data, you can visit the
                 <a href="https://www.pokemon.com" target="_blank" rel="noopener noreferrer">
                     official Pokémon website
                 </a>, which opens in a new tab because it is outside this fan site.
@@ -165,8 +191,8 @@
 <!-- Sticky Footer -->
 <footer class="mt-auto bg-dark text-light py-3">
     <div class="container text-center small">
-        &copy; 2025 Andres Vega. This is a fan site and is not affiliated with Nintendo,
-        Game Freak, or The Pokémon Company.
+        &copy; 2025 Andrés Vega. PokéWorld Hub is a fan site and is not affiliated with
+        Nintendo, Game Freak, or The Pokémon Company.
         &nbsp;|&nbsp;
         <a href="#" class="text-decoration-none text-light">Terms of Service</a>
         &nbsp;|&nbsp;

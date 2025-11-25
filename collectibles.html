@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PokéWorld Hub - Contact</title>
+    <title>PokéWorld Hub - Collectibles</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- DEVELOPER: Andrés Vega, IS117-001, Fall 2025 -->
@@ -31,17 +31,17 @@
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="pokedex.html">Pokédex</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
                             Games &amp; TCG
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="games.html">Overview</a></li>
                             <li><a class="dropdown-item" href="strategies.html">Strategies</a></li>
-                            <li><a class="dropdown-item" href="collectibles.html">Collectibles</a></li>
+                            <li><a class="dropdown-item active" href="collectibles.html">Collectibles</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="news.html">News &amp; Updates</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -50,56 +50,37 @@
 
 <main class="flex-grow-1">
     <div class="container py-4">
-        <h1 class="mb-3">Contact PokéWorld Hub</h1>
+        <h1 class="mb-3">Collectibles &amp; Trading Cards</h1>
         <p>
-            Use this form to share feedback, suggest topics, or tell us about your
-            favorite Pokémon and collections. This form is for demonstration only and
-            does not actually send data to a server.
+            The Collectibles page focuses on the Pokémon Trading Card Game and other
+            items that fans enjoy collecting. It is meant for people who want a simple
+            explanation of rarity and basic collecting habits.
         </p>
 
-        <form class="row g-3">
-            <div class="col-md-6">
-                <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" required>
-            </div>
+        <h2 class="mt-4 h4">Card Rarity Basics</h2>
+        <ul>
+            <li><strong>Common:</strong> Found frequently in booster packs.</li>
+            <li><strong>Uncommon:</strong> Slightly harder to find than common cards.</li>
+            <li><strong>Rare / Holo:</strong> Cards that often have foil effects and unique art.</li>
+            <li><strong>Ultra Rare / Secret Rare:</strong> High-end cards that collectors often chase.</li>
+        </ul>
 
-            <div class="col-md-6">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" required>
-            </div>
+        <h2 class="mt-4 h4">Tips for New Collectors</h2>
+        <p>
+            Collecting should be enjoyable first. While card value can be interesting,
+            focusing only on money can make the hobby stressful instead of fun.
+        </p>
+        <ul>
+            <li>Start with sets or Pokémon you personally like.</li>
+            <li>Use sleeves and binders to protect your favorite cards.</li>
+            <li>Be cautious when buying or trading online; check seller ratings and photos.</li>
+        </ul>
 
-            <div class="col-md-6">
-                <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" required>
-            </div>
-
-            <div class="col-md-6">
-                <label for="topic" class="form-label">Topic</label>
-                <select id="topic" class="form-select">
-                    <option selected>Choose a topic...</option>
-                    <option value="pokedex">Pokédex</option>
-                    <option value="strategies">Strategies</option>
-                    <option value="collectibles">Collectibles</option>
-                    <option value="news">News &amp; Updates</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-
-            <div class="col-12">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="5" required></textarea>
-            </div>
-
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-        </form>
-
-        <p class="mt-4">
-            You can also find more fan discussions on community forums such as
-            <a href="https://www.reddit.com/r/pokemon" target="_blank" rel="noopener noreferrer">
-                r/pokemon on Reddit
-            </a>, which opens in a new tab.
+        <h2 class="mt-4 h4">Beyond Cards</h2>
+        <p>
+            Many fans also collect figures, plush toys, and special promotional items.
+            Some create small displays or shelves based on their favorite region, type,
+            or generation of games.
         </p>
     </div>
 </main>
